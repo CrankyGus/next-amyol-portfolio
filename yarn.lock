@@ -88,6 +88,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@splinetool/react-spline@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@splinetool/react-spline/-/react-spline-2.1.0.tgz#4bbffd44a0c70c4ba44beafae669c18e168a3679"
+  integrity sha512-/LcIo2YO0WxgBaDVGOgxVwVzRr/PgHkq+fgDZ/S4syzF1WLGIlZwwBtn+hmT073sB3Uu62K0RfmRiHqCsOzFkg==
+
+"@splinetool/runtime@^0.9.39":
+  version "0.9.39"
+  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-0.9.39.tgz#95ac987da92d323a8903e6a1b71285f639347136"
+  integrity sha512-cyNIfHG8gpn/Q/Zk0eYKF9WKEy+8A+T6u4l+nLC20Ob3WD5/I/02NszuxHN6Wfz+A7wS+PwGroQgHYVTqqTqvw==
+  dependencies:
+    on-change "^4.0.0"
+
 "@types/node@17.0.4":
   version "17.0.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.4.tgz#fec0ce0526abb6062fd206d72a642811b887a111"
@@ -432,6 +444,11 @@ object-hash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-3.0.0.tgz#73f97f753e7baffc0e2cc9d6e079079744ac82e9"
   integrity sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==
+
+on-change@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/on-change/-/on-change-4.0.0.tgz#26570babb7170f28be5ea0ba00a284a5a343a472"
+  integrity sha512-PTu7C9Jsz4b+sNMDpH0eZFTr7uxdOtoDWRnhaVNK50bgrrnW5nvbWI0jm5DG9qOoTnIhBzE9xoKVFPD9xgtbdg==
 
 path-parse@^1.0.7:
   version "1.0.7"
