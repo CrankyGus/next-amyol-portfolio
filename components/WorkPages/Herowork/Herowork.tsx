@@ -15,7 +15,7 @@ const Herowork = () => {
         return () => window.removeEventListener("scroll", handleScroll)
     }, [])
     return (
-        <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{duration:1}} id="home" className='h-[100vh] w-[100%] object-contain font-[Prompt]'>
+        <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{duration:1}} id="home" className='h-[100vh] w-[100%] object-contain'>
             <video autoPlay muted loop className='absolute w-[100%] h-[1080px] object-cover -z-10 ' style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
                 <source src="/videos/bg.mp4" type='video/mp4' />
             </video>
