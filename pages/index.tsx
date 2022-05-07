@@ -1,8 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar/navbar'
-import Spline from '@splinetool/react-spline'
 import Hero from '../components/Hero/Hero'
 import Footer from '../components/Footer/footer'
 import About from '../components/About/about'

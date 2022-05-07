@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/navbar'
 import { motion, MotionConfig } from 'framer-motion'
 import Herowork from '../../components/WorkPages/Herowork/Herowork'
 import Work from '../../components/WorkPages/Work/Work'
+import Footer from '../../components/Footer/footer'
 
 const Works = () => {
   return (
@@ -15,6 +16,7 @@ const Works = () => {
       <Navbar />
       <Herowork />
       <Work/>
+      <Footer/>
 
 
     </div>

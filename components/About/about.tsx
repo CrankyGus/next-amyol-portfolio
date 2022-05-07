@@ -4,9 +4,9 @@ import Link from 'next/link'
 const About = () => {
     return (
         <>
-            <div className='bg-black pt-5 pb-[34px]' id='about'>
+            <div className='bg-[#282828] pt-5 pb-[34px] font-[Kanit]' id='about'>
                 <div className='flex item-center justify-center'>
-                    <div className='rounded-md p-4 bg-red-500 transition-all duration-300 hover:bg-cyan-500 hover:text-white '>
+                    <div className='rounded-md font-mono p-4 bg-red-500 transition-all duration-300 hover:bg-cyan-500 hover:text-white '>
                         Hello, I'm Mean. I'm a Developer from Trat, Thailand!
                     </div>
                 </div>
@@ -32,10 +32,10 @@ const About = () => {
                 </div>
                 <div className='flex flex-col justify-center items-center pt-4 text-white'>
                     <h1 className='text-yellow-500 pr-[24rem] text-xl font-mono'>Bio</h1>
-                    <p className='pr-[10.5rem] pt-5'><span className='font-bold pr-5'>2001</span> Born in Surin (สุรินทร์) </p>
-                    <p className='pr-[89px] pt-1'><span className='font-bold pr-5'>2013</span> Study at Trattrakarnkhun School </p>
-                    <p className='pr-[30px] pt-1'><span className='font-bold pr-5'>2016</span> Study at Trattrakarnkhun School (SMEP) </p>
-                    <p className='pr-[22px] pt-1'><span className='font-bold pr-5'>2019 to present</span>Studying at Rangsit University. </p>
+                    <p className='pr-[166px] pt-5'><span className='font-bold pr-5'>2001</span> Born in Surin (สุรินทร์) </p>
+                    <p className='pr-[88px] pt-1'><span className='font-bold pr-5'>2013</span> Study at Trattrakarnkhun School </p>
+                    <p className='pr-[35px] pt-1'><span className='font-bold pr-5'>2016</span> Study at Trattrakarnkhun School (SMEP) </p>
+                    <p className='pr-[27px] pt-1'><span className='font-bold pr-5'>2019 to present</span>Studying at Rangsit University. </p>
 
                 </div>
             </div>

@@ -15,7 +15,7 @@ const Herowork = () => {
         return () => window.removeEventListener("scroll", handleScroll)
     }, [])
     return (
-        <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{duration:1}} id="home" className='h-[100vh] w-[100%] object-contain'>
+        <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{duration:1}} id="home" className='h-[100vh] w-[100%] object-contain font-[Prompt]'>
             <video autoPlay muted loop className='absolute w-[100%] h-[1080px] object-cover -z-10 ' style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
                 <source src="/videos/bg.mp4" type='video/mp4' />
             </video>
@@ -38,7 +38,7 @@ const Herowork = () => {
                     </Link>
                     <Link href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101207990231273233887248933519704168876911177921171572667196749083716425351169">
                         <a target="_blank">
-                            <motion.img animate={{ scale: 1 }} whileHover={{ scale: 1.1 }} src="/image/NFTs/2.png" width={250} alt="" />
+                            <motion.img animate={{ scale: 1 }} whileHover={{ scale: 1.1 }} src="/image/NFTs/4.png" width={250} alt="" />
                         </a>
                     </Link>
                     <Link href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101207990231273233887248933519704168876911177921171572667196749089213983490049">
