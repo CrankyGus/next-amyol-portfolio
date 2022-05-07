@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { BsLine } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrFormClose } from 'react-icons/gr'
+import { Link as LinkRS } from 'react-scroll'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
     const [isSroll, setIsSroll] = useState(false)
@@ -29,18 +31,16 @@ const Navbar = () => {
             <div className='flex space-x-2 items-center pl-[40px] md:space-x-10'>
                 <Link href="/">
                     <a>
-                        <img
+                        <motion.img
                             src="/image/AMYOLEDIT.png"
-                            width={100}
-                            className='cursor-pointer object-contain mb-[-4px] transition-all duration-300 ' />
+                            animate={{scale:1}}
+                            whileHover={{scale:1.1}}
+                            className='cursor-pointer object-contain mb-[-4px] transition-all duration-300 w-[100px] ' />
                     </a>
                 </Link>
                 <div className='hidden space-x-4 md:flex font-[Prompt] font-bold pt-[5px] '>
                     <Link href="/works">
                         <a className='navlink'>Works</a>
-                    </Link>
-                    <Link href="/about">
-                        <a className='navlink'>About</a>
                     </Link>
                     <Link href="/contact">
                         <a className='navlink'>Contact</a>
@@ -54,9 +54,6 @@ const Navbar = () => {
                 <div className={isOpen ? "absolute top-[50px] left-[9.75rem] p-4 rounded-md bg-white md:hidden" : "hidden"}>
                     <Link href="/works">
                         <a className='block  hover:text-[#2155CD] '>Works</a>
-                    </Link>
-                    <Link href="/about">
-                        <a className='block  hover:text-[#2155CD] '>About</a>
                     </Link>
                     <Link href="/contact">
                         <a className='block  hover:text-[#2155CD] '>Contact</a>
