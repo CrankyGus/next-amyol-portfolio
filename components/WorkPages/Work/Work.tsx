@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Workcard from './workcard'
-
+import Workcard from './Workcard'
 
 
 const Work = () => {
@@ -15,16 +14,24 @@ const Work = () => {
                 </div>
 
                 <div className='p-5 flex space-x-4 justify-center '>
-                    <Workcard img='/image/works/work5.png' title='Authenication' desc='Authenication with firebase and react.'/>
-                    <Workcard img='/image/works/work1.png' title='Personal Portfolio' desc=' Website using reactjs and threejs.' />
-                    
+                    <Link href="/works/authen">
+                        <a>
+                            <Workcard img='/image/works/work5.png' title='Authenication' desc='Authenication with firebase and react.' />
+                        </a>
+                    </Link>
+                    <Link href="/works/portfolio">
+                        <a>
+                            <Workcard img='/image/works/work1.png' title='Personal Portfolio' desc=' Website using reactjs and threejs.' />
+                        </a>
+                    </Link>
+
                 </div>
                 <div className='p-5 flex space-x-4 justify-center '>
                     <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
                     <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
-                    
+
                 </div>
-                
+
             </div>
 
         </>

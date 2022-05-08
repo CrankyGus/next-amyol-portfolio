@@ -26,7 +26,7 @@ const About = () => {
                 <div className='flex text-white space-x-4 justify-center'>
                     <Link href="/works">
                         <a>
-                            <div className='p-3 bg-white text-black text-sm cursor-pointer transiton-all duration-300 hover:bg-cyan-500 hover:text-white'>Portfolio</div>
+                            <div className='p-3 bg-white text-black text-sm cursor-pointer transiton-all duration-300 hover:bg-cyan-500 hover:text-white'>Resume</div>
                         </a>
                     </Link>
                 </div>
