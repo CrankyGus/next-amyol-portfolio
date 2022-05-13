@@ -21,14 +21,22 @@ const Work = () => {
                     </Link>
                     <Link href="/works/portfolio">
                         <a>
-                            <Workcard img='/image/works/work1.png' title='Personal Portfolio' desc=' Website using reactjs and threejs.' />
+                            <Workcard img='/image/works/work1.png' title='Personal Portfolio' desc=' Website using reactjs, threejs and styled-components.' />
                         </a>
                     </Link>
 
                 </div>
                 <div className='p-5 flex space-x-4 justify-center '>
-                    <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
-                    <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
+                    <Link href="/works/discordbot">
+                        <a>
+                            <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
+                        </a>
+                    </Link>
+                    <Link href="/works/neflixclone">
+                    <a>
+                        <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
+                    </a>
+                    </Link>
 
                 </div>
 
