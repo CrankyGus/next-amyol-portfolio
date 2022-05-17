@@ -35,7 +35,7 @@ const Portfolio = () => {
                     <div className='flex items-center justify-center text-black p-2 bg-slate-200'>Example</div>
                     <img src="/image/works/work1.gif" className='pt-5' width={700} alt="" />
                 </div>
-                
+                <button className='p-4 mt-3 bg-red-400 text-sm cursor-pointer'>Source</button>
             </motion.div>
             <Footer />
 

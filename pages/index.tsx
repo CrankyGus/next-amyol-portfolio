@@ -8,7 +8,7 @@ import About from '../components/About/about'
 const Home: NextPage = () => {
 
   return (
-    <div className='relative bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[0vh]'>
+    <div className='bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[0vh]'>
       <Head>
         <title>Amyol - Homepage</title>
         <link rel="icon" href="/favicon.ico" />

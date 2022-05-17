@@ -25,12 +25,12 @@ const Herowork = () => {
                 <h1 className='text-white cursor-default'>
                     <Typewriter
                         options={{
-                            strings: ["NFTs", "Web Devlopment", ""],
+                            strings: [ "Web Devlopment", "Microcontroller Development"],
                             autoStart: true,
                             loop: true
                         }} /></h1>
-                <p className='text-white text-xs cursor-default pb-5'>Hi, Welcome to my portfolio. This is a new drops NFTs. </p>
-                <div className='flex item-center justify-center space-x-5 mb-[10px]'>
+                <p className='text-white text-xs cursor-default pb-5'>Hi, Welcome to my portfolio. Enjoy with my work! </p>
+                {/* <div className='flex item-center justify-center space-x-5 mb-[10px]'>
                     <Link href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101207990231273233887248933519704168876911177921171572667196749088114471862273">
                         <a target="_blank">
                             <motion.img animate={{ scale: 1 }} whileHover={{ scale: 1.1 }} src="/image/NFTs/3.jpeg" width={250} alt="" />
@@ -47,7 +47,7 @@ const Herowork = () => {
                         </a>
                     </Link>
                     
-                </div>
+                </div> */}
                 <div className='py-4 space-x-2'>
                     <Scroll to='about' smooth={true} duration={500}>
                         <button className='py-[5px] px-[28px] text-[1rem] text-white border-2 border-cyan-500  transition-all duration-300 hover:bg-cyan-500'>Works</button>

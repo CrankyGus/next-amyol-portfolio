@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrFormClose } from 'react-icons/gr'
 import { Link as LinkRS } from 'react-scroll'
 import { motion } from 'framer-motion'
+import { fadeIn } from '../VariantsFramer/variants'
 
 const Navbar = () => {
     const [isSroll, setIsSroll] = useState(false)
@@ -27,7 +28,7 @@ const Navbar = () => {
         }
     }, [])
     return (
-        <header className={`${isSroll && 'bg-[#141414]'}`}>
+        <motion.header variants={fadeIn("down")} initial="initial" animate="animate" className={`${isSroll && 'bg-[#141414]'}`}>
             <div className='flex space-x-2 items-center pl-[40px] md:space-x-10'>
                 <Link href="/">
                     <a>
@@ -42,9 +43,10 @@ const Navbar = () => {
                     <Link href="/works">
                         <a className='navlink'>Works</a>
                     </Link>
-                    <Link href="/contact">
-                        <a className='navlink'>Contact</a>
+                    <Link href="/gallery">
+                        <a className='navlink'>Gallery</a>
                     </Link>
+                    
 
                 </div>
                 <div className='flex flex-col font-[Prompt] font-bold pt-[5px] storke-white md:hidden '>
@@ -55,8 +57,8 @@ const Navbar = () => {
                     <Link href="/works">
                         <a className='block  hover:text-[#2155CD] '>Works</a>
                     </Link>
-                    <Link href="/contact">
-                        <a className='block  hover:text-[#2155CD] '>Contact</a>
+                    <Link href="/gallery">
+                        <a className='block  hover:text-[#2155CD] '>Gallery</a>
                     </Link>
                 </div>
             </div>
@@ -78,7 +80,7 @@ const Navbar = () => {
                     </a>
                 </Link>
             </div>
-        </header>
+        </motion.header>
     )
 }
 

@@ -13,6 +13,10 @@ const Work = () => {
                     </div>
                 </div>
 
+                <div className='flex justify-center items-center pt-7'>
+                    Web Development
+                </div>
+
                 <div className='p-5 flex space-x-4 justify-center '>
                     <Link href="/works/authen">
                         <a>
@@ -33,13 +37,28 @@ const Work = () => {
                         </a>
                     </Link>
                     <Link href="/works/neflixclone">
-                    <a>
-                        <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
-                    </a>
+                        <a>
+                            <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
+                        </a>
                     </Link>
 
                 </div>
+                <div className='flex justify-center items-center pt-7'>
+                    Microcontroller Development
+                </div>
+                <div className='p-5 flex space-x-4 justify-center '>
+                    <Link href="/works/discordbot">
+                        <a>
+                            <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
+                        </a>
+                    </Link>
+                    <Link href="/works/neflixclone">
+                        <a>
+                            <Workcard img='/image/works/work4.png' title='Netflix Clone' desc='Lorem ipsum dolor sit amet.' />
+                        </a>
+                    </Link>
 
+                </div>
             </div>
 
         </>
