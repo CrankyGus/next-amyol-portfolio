@@ -5,7 +5,7 @@ import {FaFacebookSquare, FaGithub, FaLinkedin, FaMapMarkedAlt, FaTwitter} from 
 const Contact = () => {
     return (
         
-        <div className=' bg-slate-100 text-black flex justify-center space-x-8' id='Contact'>
+        <div className=' bg-slate-100 text-black flex justify-center text-sm md:space-x-8' id='Contact'>
             <div className='py-8'>
                 <h1 className='font-bold pb-2'>Contact</h1>
                 <div className='flex items-center pl-2'><MdPhone/> <span className='p-4'>(+66) 99-973-9420</span></div>

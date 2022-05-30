@@ -17,11 +17,8 @@ const About = () => {
                 </div>
                 <div className='flex flex-col justify-center items-center pt-4 text-white'>
                     <h1 className='text-yellow-500 pr-[19rem] text-l font-mono'>About Me</h1>
-                    <p className='pl-[50px] pt-5'>I'm Mean. I'm currently studying in the Faculty-</p>
-                    <p className='pr-[56px]'>of Computer Engineering at Rangsit University.</p>
-                    <p className='pr-[24px]'>I want to be a Fullstack developer. I really enjoy with </p>
-                    <p className='pr-[348px]'>coding.</p>
-
+                    <p className='lg:px-[6rem]  px-[2rem] py-5 w-[80%] md:w-[50%] lg:w-[40%] '>ㅤㅤㅤI'm Mean. I'm currently studying in the Faculty of Computer Engineering at Rangsit University.I want to be a Fullstack developer. I really enjoy with coding.</p>
+                   
                 </div>
                 <div className='flex text-white space-x-4 justify-center'>
                     
