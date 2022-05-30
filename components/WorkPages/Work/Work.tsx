@@ -18,9 +18,9 @@ const Work = () => {
                 </div>
 
                 <div className='p-5 flex space-x-4 justify-center '>
-                    <Link href="/works/authen">
+                    <Link href="/works/keeblur">
                         <a>
-                            <Workcard img='/image/works/work5.png' title='Authenication' desc='Authenication with firebase and react.' />
+                            <Workcard img='/image/works/work7.png' title='Keeblur' desc='Ecommerce Website using NextJS and TailwindCss.' />
                         </a>
                     </Link>
                     <Link href="/works/portfolio">
@@ -31,6 +31,18 @@ const Work = () => {
 
                 </div>
                 <div className='p-5 flex space-x-4 justify-center '>
+                    <Link href="/works/authen">
+                        <a>
+                            <Workcard img='/image/works/work5.png' title='Authenication' desc='Authenication with firebase and react.' />
+                        </a>
+                    </Link>
+                    <Link href="/works/amyolnext">
+                        <a>
+                            <Workcard img='/image/works/work8.png' title='Amyol Next' desc='a portfolio website using Nextjs and TailwindCss.' />
+                        </a>
+                    </Link>
+                </div>
+                {/* <div className='p-5 flex space-x-4 justify-center '>
                     <Link href="/works/discordbot">
                         <a>
                             <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
@@ -42,8 +54,25 @@ const Work = () => {
                         </a>
                     </Link>
 
-                </div>
+                </div> */}
                 <div className='flex justify-center items-center pt-7'>
+                    Software Development
+                </div>
+                <div className='p-5 flex space-x-4 justify-center '>
+                    <Link href="/works/discordbot">
+                        <a>
+                            <Workcard img='/image/works/work2.png' title='Discord Bot' desc='Bot Random Food with discord.js and run on heroku.' />
+                        </a>
+                    </Link>
+                    <Link href="/works/meintgallery">
+                        <a>
+                            <Workcard img='/image/works/work6.png' title='Meint Gallery' desc='Desktop app gallery with visual C#.' />
+                        </a>
+                    </Link>
+
+                </div>
+
+                {/* <div className='flex justify-center items-center pt-7'>
                     Microcontroller Development
                 </div>
                 <div className='p-5 flex space-x-4 justify-center '>
@@ -58,7 +87,7 @@ const Work = () => {
                         </a>
                     </Link>
 
-                </div>
+                </div> */}
             </div>
 
         </>

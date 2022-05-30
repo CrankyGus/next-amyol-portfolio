@@ -10,7 +10,7 @@ const nefilxclone = () => {
     <div className='relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[0vh] '>
     <Head>
         <title>Netflix Clone - Amyol</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/image/AMYOL.png" />
     </Head>
     <Navbar/>
 

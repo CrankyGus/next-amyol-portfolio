@@ -28,8 +28,8 @@ const Navbar = () => {
         }
     }, [])
     return (
-        <motion.header variants={fadeIn("down")} initial="initial" animate="animate" className={`${isSroll && 'bg-[#141414]'}`}>
-            <div className='flex space-x-2 items-center pl-[40px] md:space-x-10'>
+        <motion.header variants={fadeIn("down")} initial="initial" animate="animate" className={`${isSroll && 'bg-[rgba(0,0,0,0.6)] backdrop-blur-md'}`}>
+            <div className='flex space-x-2 items-center pl-[40px] md:space-x-10 h-[70px]'>
                 <Link href="/">
                     <a>
                         <motion.img
@@ -53,7 +53,7 @@ const Navbar = () => {
                     {isOpen ?  <GrFormClose className='bg-white rounded-md h-6 w-6 cursor-pointer transition-all duration-300 hover:scale-110' onClick={() => setIsOpen(!isOpen)} /> 
                     : <GiHamburgerMenu className='text-white h-6 w-6 cursor-pointer transition-all duration-300 hover:scale-110' onClick={() => setIsOpen(!isOpen)}/>}
                 </div>
-                <div className={isOpen ? "absolute top-[50px] left-[9.75rem] p-4 rounded-md bg-white md:hidden" : "hidden"}>
+                <div className={isOpen ? "absolute top-[60px] left-[9.75rem] p-4 rounded-md bg-white md:hidden" : "hidden"}>
                     <Link href="/works">
                         <a className='block  hover:text-[#2155CD] '>Works</a>
                     </Link>

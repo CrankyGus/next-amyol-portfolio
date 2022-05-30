@@ -20,4 +20,5 @@
     .navlink{
         @apply text-sm font-light text-[#fff] transition-all duration-300 hover:text-[#7FB5FF]
     }
+    
 }

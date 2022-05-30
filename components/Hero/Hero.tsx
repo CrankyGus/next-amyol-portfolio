@@ -37,7 +37,9 @@ const Hero = () => {
                     <LinkR to='about' smooth={true} duration={500}>
                         <motion.button variants={fadeIn()} className='py-[5px] px-[28px] text-[1rem] text-white border-2 border-cyan-500  transition-all duration-300 hover:bg-cyan-500'>About</motion.button>
                     </LinkR>
+                    <LinkR to='Contact' smooth={true} duration={500}>
                     <motion.button variants={fadeIn()} className='py-[5px] px-[28px] text-[1rem] text-white border-2 border-[#F24A72] hover:bg-[#F24A72]  transition-all duration-300'>Contact</motion.button>
+                    </LinkR>
                 </motion.div>
             </div>
             <div className='flex flex-col justify-center items-center'>
