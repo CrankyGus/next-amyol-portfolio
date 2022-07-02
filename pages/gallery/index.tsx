@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Navbar from '../../components/Navbar/navbar'
 import About from '../../components/About/about'
 import Footer from '../../components/Footer/footer'
+import Skill from '../../components/Skill/Skill'
+import Contact from '../../components/Contact/Contact'
 
 
 const index = () => {
@@ -16,7 +18,8 @@ const index = () => {
     <div className='flex justify-center items-center bg-[#383838] text-white h-screen'>
         Coming Soon...
     </div>
-    
+    <Contact/>
+    <Skill/>
     <Footer/>
 
   </div>
