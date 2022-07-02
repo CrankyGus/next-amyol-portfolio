@@ -6,6 +6,7 @@ import Herowork from '../../components/WorkPages/Herowork/Herowork'
 import Work from '../../components/WorkPages/Work/Work'
 import Footer from '../../components/Footer/footer'
 import Contact from '../../components/Contact/Contact'
+import Skill from '../../components/Skill/Skill'
 
 const Works = () => {
   return (
@@ -18,6 +19,7 @@ const Works = () => {
       <Herowork />
       <Work/>
       <Contact/>
+      <Skill/>
       <Footer/>
 
 
