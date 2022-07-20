@@ -1,6 +1,6 @@
 # Next.js
 
-This portfolio project using nextjs typescript and tailwind css 
+This portfolio project using nextjs typescript and tailwind css .
 
 
 
